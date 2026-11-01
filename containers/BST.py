@@ -225,6 +225,7 @@ class BST(BinaryTree):
             node.value = successor
             node.right = BST._remove(node.right, successor)
         return node
+
     def remove_list(self, xs):
         '''
         Given a list xs, remove each element of xs from self.
