@@ -41,6 +41,7 @@ class Node():
         out += ')'
         return out
 
+
 class BinaryTree():
     '''
     This class is relatively useless by itself,
@@ -137,7 +138,6 @@ class BinaryTree():
         else:
             raise ValueError('Traversal type ' + str(traversal_type) + ' is not supported.')
 
-
     def preorder(self, start, traversal):
         '''
         FIXME:
@@ -149,7 +149,6 @@ class BinaryTree():
             traversal = self.preorder(start.right, traversal)
         return traversal
 
-
     def inorder(self, start, traversal):
         '''
         FIXME:
@@ -160,7 +159,6 @@ class BinaryTree():
             traversal.append(start.value)
             traversal = self.inorder(start.right, traversal)
         return traversal
-
 
     def postorder(self, start, traversal):
         '''
