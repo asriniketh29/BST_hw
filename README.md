@@ -2,5 +2,5 @@
 
 Build status:
 
-1. [![](https://github.com/asriniketh29/containers/workflows/tests-BST/badge.svg)](https://github.com/asriniketh29/containers/actions?query=workflow%3Atests-BST)
-1. [![](https://github.com/asriniketh29/containers/workflows/tests-BinaryTree/badge.svg)](https://github.com/asriniketh29/containers/actions?query=workflow%3Atests-BinaryTree)
+[![tests-BST](https://github.com/asriniketh29/BST_hw/actions/workflows/tests-BST.yml/badge.svg)](https://github.com/asriniketh29/BST_hw/actions/workflows/tests-BST.yml)
+[![tests-BinaryTree](https://github.com/asriniketh29/BST_hw/actions/workflows/tests-binarytree.yml/badge.svg)](https://github.com/asriniketh29/BST_hw/actions/workflows/tests-binarytree.yml)
