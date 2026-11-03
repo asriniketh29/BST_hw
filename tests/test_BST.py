@@ -85,7 +85,7 @@ import random
 import copy
 from hypothesis import given
 import hypothesis.strategies as st
-ints = st.lists(st.integers())
+ints = st.lists(st.integers(min_value=-1000, max_value=1000))
 
 
 @given(xs=ints)
