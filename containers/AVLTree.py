@@ -96,6 +96,7 @@ class AVLTree(BST):
         new_root.right = new_right
         new_root.left = node.left.left
         return new_root
+
     def insert(self, value):
         '''
         FIXME:

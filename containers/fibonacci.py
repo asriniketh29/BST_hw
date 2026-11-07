@@ -89,9 +89,10 @@ class FibIter:
         if self.i is not None and self.i <= self.count:
             raise StopIteration
         value = self.a
-        self.a , self.b = self.b, self.a + self.b
+        self.a, self.b = self.b, self.a + self.b
         self.count += 1
         return value
+
 
 def fib_yield(n=None):
     '''
